@@ -8,7 +8,7 @@ This manuscript is currently a work in progress. Comments and suggestions are qu
 
 * [raw manuscript source in markdown](https://github.com/karthikram/smb_git/blob/master/git_manuscript.md)
 * [Bibliography](https://github.com/karthikram/smb_git/blob/master/git_ms.bib)
-* [Draft PDF](https://github.com/karthikram/smb_git/blob/master/git_abstract.pdf?raw=true)
+* [Draft PDF](https://github.com/karthikram/smb_git/blob/master/git_manuscript.pdf?raw=true)
 
 ## Compiling the manuscript
 
