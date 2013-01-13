@@ -15,3 +15,9 @@
 12. recommendations and conclusions.
 
 Be sure to include a few screenshots in the document.
+
+git can strongly benefit scholarly communication.
+framework because it preserves the rich history of the entire scientific process.
+
+Although services such as GitHub do not offer any gaurauntee of long-term archiving, it would be easy to deposit a zipped up git repo into a member repository of the CLOCKSS such as Dryad (when associated with a member journal) or with services such as figshare (where unpublished content are also welcome).
+"content will be replicated through the CLOCKSS network."
