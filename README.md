@@ -15,5 +15,5 @@ This manuscript is currently a work in progress. Comments and suggestions are qu
 I'm using [`Pandoc`](http://johnmacfarlane.net/pandoc/) as the document generator. Once installed, run:
 
 ```
-pandoc -H margins.sty --bibliography git_ms.bib git_manuscript.md -o git_manuscript.pdf
+pandoc -H margins.sty --bibliography git_ms.bib --csl bioinformatics.csl git_manuscript.md -o git_manuscript.pdf
 ```
