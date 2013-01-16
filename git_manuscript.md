@@ -27,7 +27,7 @@ Distributed version control systems like **git** offer several features that mak
 
 The features that make git the popular choice among software developers also make it ideal for managing scientific products. git repositories maintain a complete timeline of events along with a history of changes and their authors. Perhaps the biggest reason that makes git so well suited for tracking scientific research is that it maintains a history of authorship not just in the original repository but also in every single copy cloned by anyone. This rich history can be searched or mined by future scholars to extract useful bits of code or data, review methods, check for errors among various other applications. In the remainder of the article I describe how key attributes of git can be applied to improve the scientific process. Readers should note that the article is not meant to be a complete or thorough review of all of git's features.
 
-![A hypothetical git workflow for a scientific collaboration involving three authors. Each circle represents a commit and colors denote author specific commits. Two way arrows indicate a sync (a push and pull in git terminology). One way arrows indicate an update to one branch from another. Horizontal arrows indicate development along a particular branch.](https://raw.github.com/karthikram/smb_git/master/git_workflow.png)
+![A hypothetical git workflow for a scientific collaboration involving three authors. Each circle represents a commit and colors denote author specific commits. Two way arrows indicate a sync (a push and pull in git terminology). One way arrows indicate an update to one branch from another. Horizontal arrows indicate development along a particular branch.](git_workflow.png)
 
 ## 1. Lab notebook  
 Day to day decisions made over the course of a study are often logged for review and reference in lab notebooks. Such notebooks contain important information useful to both future readers attempting to replicating a study, or for thorough reviewers seeking additional clarification. However, lab notebooks are rarely shared along with publications or made public although there are exceptions (suggestions for citations?). git commit logs can serve as a proxies for lab notebooks if clear yet concise messages are included over the course of a project. One of the fundamental features of git that make it so useful to science is that every copy of a repository carries a complete history of changes available for anyone to review. These logs can be be easily searched to retrieve versions of artifacts like data and code. Third party tools can also be leveraged to mine git histories from one or more projects for other types of analyses.
@@ -41,9 +41,9 @@ With the help of a remote git hosting services, maintaining various copies in sy
 
 In a recent paper led by Philippe Desjardins-Proulx [https://github.com/PhDP/article_preprint/network](https://github.com/PhDP/article_preprint/network) all of the authors (including me) successfully collaborated using only git and GitHub. In this particular git workflow, each of us cloned a copy of the main repository and contributed our changes back to the original author. Figures 2 and 3 show the list of collaborators and a network diagram of how and when changes were contributed back the master branch.
 
-![A list of contributions to a project on GitHub](https://raw.github.com/karthikram/smb_git/master/collaboration.png)
+![A list of contributions to a project on GitHub](collaboration.png)
 
-![git makes it easy to track individual contributions through time ensuring appropriate attribution and accountability. This screenshot shows subset of commits (black circles) by four authors over a period spanning October 29th - November 11th, 2012.](https://raw.github.com/karthikram/smb_git/master/preprint.png)
+![git makes it easy to track individual contributions through time ensuring appropriate attribution and accountability. This screenshot shows subset of commits (black circles) by four authors over a period spanning October 29th - November 11th, 2012.](preprint.png)
 
 
 ##  3. Backup and failsafe against data loss
