@@ -6,9 +6,9 @@ Target Journal: [Source Code in Medicine and Biology](http://www.scfbm.org/)
 
 This manuscript is currently a work in progress. Comments and suggestions are quite welcome either as [issues](https://github.com/karthikram/smb_git/issues/new) or via [email](mailto:karthik.ram@gmail.com).
 
-* [raw manuscript source in markdown](https://github.com/karthikram/smb_git/blob/master/git_manuscript.md)
-* [Bibliography](https://github.com/karthikram/smb_git/blob/master/git_ms.bib)
-* [Draft PDF](https://github.com/karthikram/smb_git/blob/master/git_manuscript.pdf?raw=true)
+* [raw manuscript source in markdown](https://github.com/karthikram/smb_git/blob/master/git_manuscript.md) (figure captions and citations not rendered in this version)
+* [Draft PDF](https://github.com/karthikram/smb_git/blob/master/git_manuscript.pdf?raw=true) (contains parsed citations and figure captions)
+* [Bibliography](https://github.com/karthikram/smb_git/blob/master/git_ms.bib) 
 
 ## Compiling the manuscript
 
