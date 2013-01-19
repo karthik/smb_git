@@ -17,3 +17,13 @@ I'm using [`Pandoc`](http://johnmacfarlane.net/pandoc/) as the document generato
 ```
 pandoc -H margins.sty --bibliography git_ms.bib --csl plos.csl git_manuscript.md -o git_manuscript.pdf
 ```
+
+## Citing this pre-print
+
+Until a full citation is available, please use this one if you need to cite a pre-print
+
+```
+git can facilitate greater reproducibility and increased transparency in science.. Karthik Ram. figshare.
+Retrieved 18:04, Jan 19, 2013 (GMT) 
+http://dx.doi.org/10.6084/m9.figshare.114583
+```
