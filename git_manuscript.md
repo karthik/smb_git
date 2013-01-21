@@ -11,8 +11,10 @@ Reproducibility is the hallmark of good science. Maintaining a high degree of tr
 
 Version control systems (VCS), which have long been used to maintain code repositories in the software industry, are now finding new applications in science. One such open-source VCS, git, provides a lightweight yet robust framework that is ideal for managing the full suite of research outputs such as datasets, statistical code, figures, lab notes, and  manuscripts. For individual researchers, git provides a powerful way to track and compare versions, retrace errors, explore new approaches in a structured manner, while maintaining a full audit trail. For larger collaborative efforts, git and git hosting services make it possible for everyone to work asynchronously and merge their contributions at any time, all the while maintaining a complete authorship trail. In this paper I provide an overview of git along with use-cases that highlight how this tool can be leveraged to make science more reproducible and transparent, foster new collaborations, and support novel uses.
 
+# Keywords
+reproducible research, version control, open science.
 
-# Introduction
+# Background
 
 Reproducible science provides the critical standard by which published results are judged and central findings are either validated or refuted [@Vink2012b]. Reproducibility also allows others to build upon existing work and use it to test new ideas and develop methods. Advances over the years have resulted in the development of complex methodologies that allow us to collect ever increasing amounts of data. While repeating expensive studies to validate findings is often difficult, a whole host of other reasons have contributed to the problem of reproducibility [@Peng2011; @Begley2012]. One such reason has been the lack of detailed access to underlying data and statistical code used for analysis, which can provide opportunities for others to verify findings [@Schwab2000a; @Ince2012a]. In an era rife with costly retractions, scientists have an increasing burden to be more transparent in order to maintain their credibility [@VanNoorden2011a]. While post-publication sharing of data and code is on the rise, driven in part by funder mandates and journal requirements [@Whitlock2010a], access to such research outputs is still not very common [@Vines2013; @Wolkovich2012]. By sharing detailed and versioned copies of one's data and code researchers can not only ensure that reviewers can make well-informed decisions, but also provide opportunities for such artifacts to be repurposed and brought to bear on new research questions.
 
@@ -92,13 +94,23 @@ A common barrier that prevents someone from reproducing or building upon an exis
 
 A similar argument can be made for data as well. Even publications that deposit data in persistent repositories rarely share the original raw data. The versions submitted to persistent repositories are often *cleaned* and finalized versions of datasets. In cases where no datasets are deposited, the only data accessible are likely mean values reported in the main text or appendix of a paper. Raw data can be leveraged to answer questions not originally intended by the authors. For example, research areas that address questions about uncertainly often require messy raw data to test competing methods. Thus, versioned data provide opportunities to retrieve copies before they have been modified for use in different contexts and have lost some of their utility.  
 
-# Conclusions  
+# Discussion  
 Wider use of git has the potential to revolutionize scholarly communication and increase opportunities for reuse, novel synthesis, and new collaborative efforts. With disciplined use of git, individual scientists and labs can ensure that the entire timeline of events that occur over the development of a research project are securely logged in a system that provides security against data loss and encourages risk-free exploration of new ideas and approaches. In an era with shrinking research budgets, scientists are under increasing pressure to produce more with less. If more granular sharing via git reduces time spent developing new software, or repeating expensive data collection efforts, then everyone stands to benefit. Scientists should note that these efforts don't have to viewed as entirely altruistic. In a recent mandate the National Science Foundation [@nsf2012] has expanded its merit guidelines to include a range of academic products such as software and data, in addition to peer-reviewed publications. With the rise in use of altmetric tools that track and credit such efforts, then everyone can benefit [@Piwowar2013].
 
 Although I have laid out various arguments for why more scientists should be using git, one should be careful not to view git as a one stop solution to all the problems facing reproducibility in science. Although the basic features of git can be readily used without any knowledge of command line tools, leveraging the full power of git, especially when working on complex projects where one might encounter unwieldy merge conflicts, comes at a significant learning cost. There are also comparable alternatives to git (e.g. Mercurial) which offer less granularity but are more user-friendly. While time invested in becoming proficient in git would be valuable in the long-term, most scientists do not have the luxury of learning software skills that do not address more immediate problems. Despite the fact that scientists spent considerable time using and creating their own software to address domain specific needs, good programming practices are rarely taught [@Wilson2012]. Therefore wider adoption of useful tools like git will require greater software development literacy among scientists. On a more optimistic note, such literacy is slowly becoming common in the new generation of academics, driven in part by efforts such as Software Carpentry [http://software-carpentry.org/](http://software-carpentry.org/) and newer courses taught in graduate curricula (e.g. [Programming for biologists](http://www.programmingforbiologists.org/) taught at Utah State University).
 
+# List of Abbreviations
+VCS: Version Control System; NSF: National Science Foundation; CSV: Comma Separated Values.
+
 ## Acknowledgements  
 I was supported by NSF DEB-`1021553` while preparing this manuscript. Comments from Carl Boettiger, Yoav Ram, and Scott Chamberlain on earlier drafts greatly improved the final version of this article. This manuscript is available both as a git repository (with a full history of changes) [https://github.com/karthikram/smb_git.git](https://github.com/karthikram/smb_git.git) and also as a permanent archived copy on figshare (http://figshare.com/) (I'll add a link to figshare URL once a final version of the paper is accepted). I also thank the rOpenSci project ([http://ropensci.org](http://ropensci.org)) for helping me gain a greater appreciation for git as a tool for advancing science.
+
+# Author contributions
+KR wrote the manuscript.
+
+# Competing interests
+The author declare that he have no competing interests.
+
 
 ## Literature Cited  
 
