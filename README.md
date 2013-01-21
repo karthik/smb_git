@@ -23,7 +23,7 @@ pandoc -H margins.sty --bibliography git_ms.bib --csl plos.csl git_manuscript.md
 Until a full citation becomes available please cite this pre-print as follows:
 
 ```
-git can facilitate greater reproducibility and increased transparency in science.. Karthik Ram. figshare.
-Retrieved 21:25, Jan 20, 2013 (GMT)
-http://dx.doi.org/10.6084/m9.figshare.114583
+git can facilitate greater reproducibility and increased transparency in science. Karthik Ram. figshare.
+Retrieved 18:51, Jan 21, 2013 (GMT)
+http://dx.doi.org/10.6084/m9.figshare.153821
 ```
