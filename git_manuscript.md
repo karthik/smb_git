@@ -103,7 +103,7 @@ Although I have laid out various arguments for why more scientists should be usi
 VCS: Version Control System; NSF: National Science Foundation; CSV: Comma Separated Values.
 
 ## Acknowledgements  
-Comments from Carl Boettiger, Yoav Ram, and Scott Chamberlain on earlier drafts greatly improved the final version of this article. This manuscript is available both as a git repository (with a full history of changes) [https://github.com/karthikram/smb_git.git](https://github.com/karthikram/smb_git.git) and also as a permanent archived copy on figshare (http://figshare.com/) (I'll add a link to figshare URL once a final version of the paper is accepted). I also thank the rOpenSci project ([http://ropensci.org](http://ropensci.org)) for helping me gain a greater appreciation for git as a tool for advancing science.
+Comments from Carl Boettiger, Yoav Ram, David Jones, and Scott Chamberlain on earlier drafts greatly improved the final version of this article. This manuscript is available both as a git repository (with a full history of changes) [https://github.com/karthikram/smb_git.git](https://github.com/karthikram/smb_git.git) and also as a permanent archived copy on figshare (http://figshare.com/) (I'll add a link to figshare URL once a final version of the paper is accepted). I also thank the rOpenSci project ([http://ropensci.org](http://ropensci.org)) for helping me gain a greater appreciation for git as a tool for advancing science.
 
 # Author contributions
 KR wrote the manuscript.
