@@ -46,8 +46,6 @@ Similarly, figures that are published in a paper often undergo multiple revision
 ### Complete manuscripts
 When all of the above artifacts are used in a single effort, such as writing a manuscript, git can collectively manage versions in a powerful way for both individual authors and groups of collaborators. This process avoids rapid multiplication of unmanageable files with uninformative names (e.g. *final_1.doc, final_2.doc, final_final.doc, final_KR_1.doc* etc.) as [illustrated](http://www.phdcomics.com/comics/archive.php?comicid=1531) by the popular cartoon strip PhD Comics. 
 
-![A hypothetical git workflow for a scientific collaboration involving three authors. Each circle represents a commit and colors denote author specific commits. Two way arrows indicate a sync (a push and pull in git terminology). One way arrows indicate an update to one branch from another. Horizontal arrows indicate development along a particular branch.](git_workflow.png)
-
 # Use cases for git in science
 
 ## 1. Lab notebook  
@@ -61,11 +59,6 @@ When projects are tracked using git, every single action (such as additions, del
 With the help of a remote git hosting services, maintaining various copies in sync with each other becomes effortless. While most changes are merged automatically, conflicts will need to be resolved manually which would also be the case with most other workflows (e.g. using Microsoft Word with track changes). By syncing changes back and forth with a remote repository, every author can update their local copies as well as push their changes to the remote version at any time, all the while maintaining a complete audit trail. Mistakes or unnecessary changes can easily undone by reverting either the entire repository or individual files to earlier commits. Since commits are attributed to specific authors, error or clarifications can also be appropriately directed. Perhaps most importantly this workflow ensures that revisions do not have to be emailed back and forth. While cloud storage providers like Dropbox alleviate some of these annoyances and also provide versioning, the process is not controlled making it hard to discern what and how many changes have occurred between two time intervals.
 
 In a recent paper led by Philippe Desjardins-Proulx [https://github.com/PhDP/article_preprint/network](https://github.com/PhDP/article_preprint/network) all of the authors successfully collaborated using only git and GitHub ([https://github.com/]([@Vink2012b])). In this particular git workflow, each of us cloned a copy of the main repository and contributed our changes back to the lead author. Figures `2` and `3` show the list of collaborators and a network diagram of how and when changes were contributed back the master branch.
-
-![A list of contributions to a project on GitHub](collaboration.png)
-
-![git makes it easy to track individual contributions through time ensuring appropriate attribution and accountability. This screenshot shows subset of commits (colored dots) by four authors over a period spanning October 29th - November 11th, 2012.](preprint.png)
-
 
 ##  3. Backup and failsafe against data loss
 
@@ -106,7 +99,7 @@ VCS: Version Control System; NSF: National Science Foundation; CSV: Comma Separa
 Comments from Carl Boettiger, Yoav Ram, David Jones, and Scott Chamberlain on earlier drafts greatly improved the final version of this article. This manuscript is available both as a git repository (with a full history of changes) [https://github.com/karthikram/smb_git.git](https://github.com/karthikram/smb_git.git) and also as a permanent archived copy on figshare (http://figshare.com/) (I'll add a link to figshare URL once a final version of the paper is accepted). I also thank the rOpenSci project ([http://ropensci.org](http://ropensci.org)) for helping me gain a greater appreciation for git as a tool for advancing science.
 
 # Author contributions
-KR wrote the manuscript.
+KR conceived and wrote the manuscript. The author has read and approved the manuscript.
 
 # Competing interests
 I declare that I have no competing interests.
