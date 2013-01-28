@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.1.11)  28 JAN 2013 08:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.1.11)  28 JAN 2013 11:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -739,11 +739,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 663.
 Here is how much of TeX's memory you used:
  11252 strings out of 493488
  160683 string characters out of 3141326
- 257731 words of memory out of 3000000
+ 256727 words of memory out of 3000000
  14364 multiletter control sequences out of 15000+200000
  35434 words of font info for 71 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 30i,6n,35p,538b,341s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,5n,35p,538b,341s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
 12/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2012/texmf-d
@@ -752,7 +752,7 @@ ist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2012/texmf-dist/fonts
 ic/lm/lmri10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmtt
 10.pfb>
 Output written on /Users/karthik/Documents/Work/Github/smb_git/.texpadtmp/git_m
-anuscript.pdf (9 pages, 183934 bytes).
+anuscript.pdf (9 pages, 184092 bytes).
 PDF statistics:
  216 PDF objects out of 1000 (max. 8388607)
  197 compressed objects within 2 object streams
