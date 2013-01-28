@@ -2,4 +2,7 @@
 cp ~/Documents/Work/Reference/BibTex/git_ms.bib .
 # Ignoring citation style for now
 # pandoc -H margins.sty --bibliography git_ms.bib --csl bioinformatics.csl git_manuscript.md -o git_manuscript.pdf
-pandoc -H margins.sty --bibliography git_ms.bib --csl plos.csl git_manuscript.md -o git_manuscript.pdf
+pandoc -H margins.sty list_of_figures.md -o list_of_figures.pdf
+pandoc -H margins.sty --bibliography git_ms.bib --csl plos.csl git_manuscript.md -o git_manuscript.tex
+# pandoc -H margins.sty --bibliography git_ms.bib --csl plos.csl git_manuscript.md -o git_manuscript.pdf
+
