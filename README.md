@@ -20,7 +20,7 @@ pandoc -H margins.sty --bibliography git_ms.bib --csl plos.csl git_manuscript.md
 
 ## Citing this pre-print
 
-This article has now been accepted for publication at Source Code in Medicine and Biology (2/6/13). Until a full citation becomes available please cite this pre-print as follows:
+This article has now been accepted for publication at **Source Code in Medicine and Biology** (2/6/13). Until a full citation becomes available please cite this pre-print as follows:
 
 ```
 git can facilitate greater reproducibility and increased transparency in science. Karthik Ram. figshare.
