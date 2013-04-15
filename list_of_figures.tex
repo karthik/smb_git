@@ -1,0 +1,70 @@
+\documentclass[]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \usepackage{fontspec}
+  \ifxetex
+    \usepackage{xltxtra,xunicode}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+\usepackage[vmargin=1in,hmargin=1in]{geometry}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\section{List of Figures}
+
+\subsubsection{Figure 1}
+
+A hypothetical Git workflow for a scientific collaboration involving
+three authors. Each circle represents a commit and colors denote author
+specific commits. Two way arrows indicate a sync (a push and pull in Git
+terminology). One way arrows indicate an update to one branch from
+another. Horizontal arrows indicate development along a particular
+branch.
+
+\subsubsection{Figure 2}
+
+A list of contributions to a project on GitHub.
+
+\subsubsection{Figure 3}
+
+Git makes it easy to track individual contributions through time
+ensuring appropriate attribution and accountability. This screenshot
+shows subset of commits (colored dots) by four authors over a period
+spanning November 17th, 2012 - January 26th, 2013.
+
+\end{document}

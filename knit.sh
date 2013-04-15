@@ -11,3 +11,5 @@ rm list_of_figures.pdf
 rm git_manuscript.pdf
 mv git_ms.pdf git_manuscript.pdf
 
+pandoc -H margins.sty --bibliography git_ms.bib --csl plos.csl git_manuscript.md -o git_manuscript.tex
+pandoc -H margins.sty list_of_figures.md -o list_of_figures.tex
