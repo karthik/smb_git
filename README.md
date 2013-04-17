@@ -22,8 +22,8 @@ pandoc -H margins.sty --bibliography Git_ms.bib --csl plos.csl Git_manuscript.md
 
 This article has now been accepted for publication at **Source Code in Medicine and Biology** (2/6/13). Until a full citation becomes available please cite this pre-print as follows:
 
-```
- Ram: Git can facilitate greater reproducibility and increased transparency in science. Source Code for Biology and Medicine 2013 8:7.
-```
+
+**Ram: Git can facilitate greater reproducibility and increased transparency in science. Source Code for Biology and Medicine 2013 8:7.**
+
 
 [Uncorrected proofs](1492426133899656_uncorrected.pdf)
