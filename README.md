@@ -26,4 +26,4 @@ This article has now been accepted for publication at **Source Code in Medicine 
 **Ram: Git can facilitate greater reproducibility and increased transparency in science. Source Code for Biology and Medicine 2013 8:7.**
 
 
-[Uncorrected proofs](1492426133899656_uncorrected.pdf)
+[Uncorrected proofs](1492426133899656_uncorrected.pdf) *PS: There are some corrections so I'll post the final pdf shortly.*
