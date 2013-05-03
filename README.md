@@ -18,12 +18,11 @@ I'm using [`Pandoc`](http://johnmacfarlane.net/pandoc/) as the document generato
 pandoc -H margins.sty --bibliography Git_ms.bib --csl plos.csl Git_manuscript.md -o Git_manuscript.pdf
 ```
 
-## Citing this pre-print
+## Citing this paper
 
-This article has now been accepted for publication at **Source Code in Medicine and Biology** (2/6/13). Until a full citation becomes available please cite this pre-print as follows:
+This article was published in **Source Code in Medicine and Biology** 
+
+[**Ram, K 2013. Git can facilitate greater reproducibility and increased transparency in science. Source Code for Biology and Medicine 2013 8:7.**](http://www.scfbm.org/content/8/1/7/abstract)
 
 
-**Ram: Git can facilitate greater reproducibility and increased transparency in science. Source Code for Biology and Medicine 2013 8:7.**
-
-
-[Uncorrected proofs](1492426133899656_uncorrected.pdf) *PS: There are some corrections so I'll post the final pdf shortly.*
+[Final published pdf](http://www.scfbm.org/content/pdf/1751-0473-8-7.pdf)
